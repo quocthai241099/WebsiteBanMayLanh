@@ -1,0 +1,31 @@
+﻿@model IEnumerable<QLMayLanh.Models.SanPham>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPage2.cshtml";
+}
+
+<div class="row " style="text-align:center">
+    @foreach (var sp in Model)
+    {
+        <div class="col-sm-4 col-lg-4 col-md-4">
+            <div class="thumbnail">
+                <a href="@Url.Action("Details","MayLanh",new {id=sp.MaSP})">
+                    <img  src="~/Assets/images/@sp.HinhAnhSP" width="250" height="250"  />
+                
+                <div>
+                    <br />
+                    <h4 style="text-align:center">
+                        
+                       <h2 style="font-size:x-large; font-family:'Times New Roman'; font-weight:bold;color:black"> @sp.TenSP</h2>
+                        
+                    </h4>
+                    <p></p>
+                </div>
+                    
+                 </a>
+                
+            </div>
+        </div>
+    }
+</div>
+

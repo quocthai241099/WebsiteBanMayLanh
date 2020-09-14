@@ -1,0 +1,60 @@
+E:\Work\CongNgheWeb\DoAn\New folder\QLMayLanh\QLMayLanh\bin\QLMayLanh.dll
+E:\Work\CongNgheWeb\DoAn\New folder\QLMayLanh\QLMayLanh\bin\QLMayLanh.pdb
+E:\Work\CongNgheWeb\DoAn\New folder\QLMayLanh\QLMayLanh\bin\Microsoft.Web.Infrastructure.dll
+E:\Work\CongNgheWeb\DoAn\New folder\QLMayLanh\QLMayLanh\bin\Newtonsoft.Json.dll
+E:\Work\CongNgheWeb\DoAn\New folder\QLMayLanh\QLMayLanh\bin\System.Net.Http.Formatting.dll
+E:\Work\CongNgheWeb\DoAn\New folder\QLMayLanh\QLMayLanh\bin\System.Web.Helpers.dll
+E:\Work\CongNgheWeb\DoAn\New folder\QLMayLanh\QLMayLanh\bin\System.Web.Http.dll
+E:\Work\CongNgheWeb\DoAn\New folder\QLMayLanh\QLMayLanh\bin\System.Web.Http.WebHost.dll
+E:\Work\CongNgheWeb\DoAn\New folder\QLMayLanh\QLMayLanh\bin\System.Web.Mvc.dll
+E:\Work\CongNgheWeb\DoAn\New folder\QLMayLanh\QLMayLanh\bin\System.Web.Razor.dll
+E:\Work\CongNgheWeb\DoAn\New folder\QLMayLanh\QLMayLanh\bin\System.Web.WebPages.Deployment.dll
+E:\Work\CongNgheWeb\DoAn\New folder\QLMayLanh\QLMayLanh\bin\System.Web.WebPages.dll
+E:\Work\CongNgheWeb\DoAn\New folder\QLMayLanh\QLMayLanh\bin\System.Web.WebPages.Razor.dll
+E:\Work\CongNgheWeb\DoAn\New folder\QLMayLanh\QLMayLanh\bin\Newtonsoft.Json.xml
+E:\Work\CongNgheWeb\DoAn\New folder\QLMayLanh\QLMayLanh\bin\System.Net.Http.Formatting.xml
+E:\Work\CongNgheWeb\DoAn\New folder\QLMayLanh\QLMayLanh\bin\System.Web.Helpers.xml
+E:\Work\CongNgheWeb\DoAn\New folder\QLMayLanh\QLMayLanh\bin\System.Web.Http.xml
+E:\Work\CongNgheWeb\DoAn\New folder\QLMayLanh\QLMayLanh\bin\System.Web.Http.WebHost.xml
+E:\Work\CongNgheWeb\DoAn\New folder\QLMayLanh\QLMayLanh\bin\System.Web.Mvc.xml
+E:\Work\CongNgheWeb\DoAn\New folder\QLMayLanh\QLMayLanh\bin\System.Web.Razor.xml
+E:\Work\CongNgheWeb\DoAn\New folder\QLMayLanh\QLMayLanh\bin\System.Web.WebPages.xml
+E:\Work\CongNgheWeb\DoAn\New folder\QLMayLanh\QLMayLanh\bin\System.Web.WebPages.Deployment.xml
+E:\Work\CongNgheWeb\DoAn\New folder\QLMayLanh\QLMayLanh\bin\System.Web.WebPages.Razor.xml
+E:\Work\CongNgheWeb\DoAn\New folder\QLMayLanh\QLMayLanh\obj\Debug\QLMayLanh.csprojResolveAssemblyReference.cache
+E:\Work\CongNgheWeb\DoAn\New folder\QLMayLanh\QLMayLanh\obj\Debug\QLMayLanh.dll
+E:\Work\CongNgheWeb\DoAn\New folder\QLMayLanh\QLMayLanh\obj\Debug\QLMayLanh.pdb
+E:\Work\CongNgheWeb\DoAn\New folder\QLMayLanh\QLMayLanh\bin\PagedList.dll
+E:\Work\CongNgheWeb\DoAn\New folder\QLMayLanh\QLMayLanh\bin\PagedList.Mvc.dll
+E:\Work\CongNgheWeb\DoAn\New folder\QLMayLanh\QLMayLanh\bin\PagedList.xml
+E:\Work\CongNgheWeb\DoAn\New folder\QLMayLanh\QLMayLanh\bin\PagedList.Mvc.xml
+E:\Work\CongNgheWeb\DoAn\DoAnWebMayLanh\QLMayLanh\QLMayLanh\bin\QLMayLanh.dll
+E:\Work\CongNgheWeb\DoAn\DoAnWebMayLanh\QLMayLanh\QLMayLanh\bin\QLMayLanh.pdb
+E:\Work\CongNgheWeb\DoAn\DoAnWebMayLanh\QLMayLanh\QLMayLanh\bin\Microsoft.Web.Infrastructure.dll
+E:\Work\CongNgheWeb\DoAn\DoAnWebMayLanh\QLMayLanh\QLMayLanh\bin\Newtonsoft.Json.dll
+E:\Work\CongNgheWeb\DoAn\DoAnWebMayLanh\QLMayLanh\QLMayLanh\bin\PagedList.dll
+E:\Work\CongNgheWeb\DoAn\DoAnWebMayLanh\QLMayLanh\QLMayLanh\bin\PagedList.Mvc.dll
+E:\Work\CongNgheWeb\DoAn\DoAnWebMayLanh\QLMayLanh\QLMayLanh\bin\System.Net.Http.Formatting.dll
+E:\Work\CongNgheWeb\DoAn\DoAnWebMayLanh\QLMayLanh\QLMayLanh\bin\System.Web.Helpers.dll
+E:\Work\CongNgheWeb\DoAn\DoAnWebMayLanh\QLMayLanh\QLMayLanh\bin\System.Web.Http.dll
+E:\Work\CongNgheWeb\DoAn\DoAnWebMayLanh\QLMayLanh\QLMayLanh\bin\System.Web.Http.WebHost.dll
+E:\Work\CongNgheWeb\DoAn\DoAnWebMayLanh\QLMayLanh\QLMayLanh\bin\System.Web.Mvc.dll
+E:\Work\CongNgheWeb\DoAn\DoAnWebMayLanh\QLMayLanh\QLMayLanh\bin\System.Web.Razor.dll
+E:\Work\CongNgheWeb\DoAn\DoAnWebMayLanh\QLMayLanh\QLMayLanh\bin\System.Web.WebPages.Deployment.dll
+E:\Work\CongNgheWeb\DoAn\DoAnWebMayLanh\QLMayLanh\QLMayLanh\bin\System.Web.WebPages.dll
+E:\Work\CongNgheWeb\DoAn\DoAnWebMayLanh\QLMayLanh\QLMayLanh\bin\System.Web.WebPages.Razor.dll
+E:\Work\CongNgheWeb\DoAn\DoAnWebMayLanh\QLMayLanh\QLMayLanh\bin\PagedList.xml
+E:\Work\CongNgheWeb\DoAn\DoAnWebMayLanh\QLMayLanh\QLMayLanh\bin\PagedList.Mvc.xml
+E:\Work\CongNgheWeb\DoAn\DoAnWebMayLanh\QLMayLanh\QLMayLanh\bin\Newtonsoft.Json.xml
+E:\Work\CongNgheWeb\DoAn\DoAnWebMayLanh\QLMayLanh\QLMayLanh\bin\System.Net.Http.Formatting.xml
+E:\Work\CongNgheWeb\DoAn\DoAnWebMayLanh\QLMayLanh\QLMayLanh\bin\System.Web.Helpers.xml
+E:\Work\CongNgheWeb\DoAn\DoAnWebMayLanh\QLMayLanh\QLMayLanh\bin\System.Web.Http.xml
+E:\Work\CongNgheWeb\DoAn\DoAnWebMayLanh\QLMayLanh\QLMayLanh\bin\System.Web.Http.WebHost.xml
+E:\Work\CongNgheWeb\DoAn\DoAnWebMayLanh\QLMayLanh\QLMayLanh\bin\System.Web.Mvc.xml
+E:\Work\CongNgheWeb\DoAn\DoAnWebMayLanh\QLMayLanh\QLMayLanh\bin\System.Web.Razor.xml
+E:\Work\CongNgheWeb\DoAn\DoAnWebMayLanh\QLMayLanh\QLMayLanh\bin\System.Web.WebPages.xml
+E:\Work\CongNgheWeb\DoAn\DoAnWebMayLanh\QLMayLanh\QLMayLanh\bin\System.Web.WebPages.Deployment.xml
+E:\Work\CongNgheWeb\DoAn\DoAnWebMayLanh\QLMayLanh\QLMayLanh\bin\System.Web.WebPages.Razor.xml
+E:\Work\CongNgheWeb\DoAn\DoAnWebMayLanh\QLMayLanh\QLMayLanh\obj\Debug\QLMayLanh.csprojResolveAssemblyReference.cache
+E:\Work\CongNgheWeb\DoAn\DoAnWebMayLanh\QLMayLanh\QLMayLanh\obj\Debug\QLMayLanh.dll
+E:\Work\CongNgheWeb\DoAn\DoAnWebMayLanh\QLMayLanh\QLMayLanh\obj\Debug\QLMayLanh.pdb

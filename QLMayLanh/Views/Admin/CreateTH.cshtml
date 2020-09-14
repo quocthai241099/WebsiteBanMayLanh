@@ -1,0 +1,32 @@
+﻿@model QLMayLanh.Models.ThuongHieu
+
+@{
+    ViewBag.Title = "CreateTH";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+<table align="center">
+    <h2 style="text-align:center">CREATE</h2>
+    @using (Html.BeginForm("CreateTH", "Admin", FormMethod.Post, new { @enctype = "multipart/form-data" }))
+    {
+         @Html.AntiForgeryToken()
+         <tr style="height:40px">
+            <td align="left">@Html.LabelFor(model => model.TenTH, new { @class = "control-label col-md-2" })</td>
+            <td align="left"> @Html.EditorFor(model => model.TenTH) </td>
+             <td align="left">@Html.ValidationMessageFor(model => model.TenTH)</td>
+        </tr>
+        <tr style="height:40px">
+            <td align="left">@Html.LabelFor(model => model.HinhAnh, new { @class = "control-label col-md-2" })</td>
+            <td align="left"><input type="file" name="fileupload" /></td>
+             <td align="left">@ViewBag.Thongbao</td>
+        </tr>
+       
+        <tr style="height:40px">
+            <td></td>
+            <td><input type="submit" value="Thêm mới" /></td>
+        </tr>
+    }
+    </table>
+
+<div>
+    @Html.ActionLink("Về trang quản lý thương hiệu", "ThuongHieu")
+</div>

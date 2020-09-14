@@ -1,0 +1,36 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Assets/css/login.css" rel="stylesheet">
+    <title>DangNhap</title>
+</head>
+<body>
+    <div class="login-page">
+  <div class="form">
+    <form class="register-form">
+      <input type="text" placeholder="name"/>
+      <input type="password" placeholder="password"/>
+      <input type="text" placeholder="email address"/> 
+      <button>create</button>
+      <p class="message">Already registered? <a href="#">Sign In</a></p>
+    </form>
+      @using(Html.BeginForm())
+      {
+          @Html.ValidationSummary(true)
+    <form class="login-form">
+        <h2 style="font-family:'Times New Roman';font-weight:bold;color:red">@ViewBag.Thongbao</h2>
+      <input type="text" name="user" placeholder="username"/>@ViewData["Loi1"]
+      <input type="password" name="password" placeholder="password"/>@ViewData["Loi2"]
+      <button>login</button>
+    </form>
+      }
+  </div>
+</div>
+</body>
+</html>

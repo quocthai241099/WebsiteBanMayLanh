@@ -1,0 +1,46 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <script src="~/Assets/tinymce/js/tinymce/tinymce.min.js"></script>
+    <script>tinymce.init({ selector: 'textarea' });
+    </script>
+    <link href="~/Assets/css/style.css" rel="stylesheet">
+    <link href="~/Assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    
+    	<div class="top" style="padding-top: -20px; margin-bottom: -55px">
+        	<ul>
+            	<li>
+                     <p style="margin-bottom: 0px; height: 110px">
+                    	
+                     </p>
+                </li>
+                 <li style="text-align: left;">
+                    <p style="text-align: justify">&nbsp;
+                        </p>
+                </li>
+                
+            </ul>
+        </div>
+        <div class="menu" style="padding-top: -15px; margin-top: -15px; margin-bottom:-15px">
+             <ul>
+                 <li><a href="@Url.Action("Index","Admin")">TRANG CHỦ</a></li>
+                 <li><a href="@Url.Action("ThuongHieu","Admin")">QUẢN LÝ THƯƠNG HIỆU</a></li>
+                 <li><a href="@Url.Action("SanPham","Admin")">QUẢN LÝ SẢN PHẨM</a></li>
+                
+                 
+             </ul>
+        </div>
+        <br />
+        <div>
+            @RenderBody()
+        </div>
+        <br />
+		
+</body>
+</html>

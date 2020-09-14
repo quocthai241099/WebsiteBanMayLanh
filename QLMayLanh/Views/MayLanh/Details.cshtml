@@ -1,0 +1,40 @@
+﻿<style type="text/css">
+    #Datmua a {
+        clear:both;
+        background-color:red;
+        color:white;
+        width:120px;
+        height:35px;
+        display:block;
+        float:right;
+        text-align:center;
+        padding-top:10px;
+        text-decoration:none;
+        font-weight:bold;
+    }
+        #Datmua a :hover {
+            background-color:gray;
+            color:red;
+        }
+</style>
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutPage2.cshtml";
+}
+<h3 style="text-align:center; color:red; font-family:'Times New Roman'; font-weight:bold">THÔNG TIN SẢN PHẨM</h3>
+<div>
+    <div style="width:40%;float:left;border-left:dotted 1px;border-color:azure">
+        <img src="~/Assets/images/@Model.HinhAnhSP" width="100%" />
+    </div>
+    <div style="width:60%;float:left">
+        <h4 style="text-align:left; color:#808080; font-weight:bold">Tên sản phẩm: <span style="color:black;font-size:20pt;font-family:'Times New Roman';font-weight:100">@Model.TenSP</span></h4>
+        <h4 style="text-align:left; color:#808080; font-weight:bold">Mô tả: <span style="color:black;font-size:20pt;font-family:'Times New Roman';font-weight:100">@Model.MoTa</span></h4>
+        <h4 style="text-align:left; color:#808080; font-weight:bold">Giá bán: <span style="color:black;font-size:20pt;font-family:'Times New Roman';font-weight:100">@Model.GiaBan VNĐ</span></h4>
+    <div id="Datmua">
+            <a href="@Url.Action("ThemGioHang","GioHang",new {@iMaSP=@Model.MaSP, @strURL=Request.Url.ToString()})">Đặt mua</a>
+       </div>
+    </div>
+    <div>
+        
+    </div>
+</div>

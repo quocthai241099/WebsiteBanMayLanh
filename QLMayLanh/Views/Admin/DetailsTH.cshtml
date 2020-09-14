@@ -1,0 +1,23 @@
+﻿@model QLMayLanh.Models.ThuongHieu
+@{
+    ViewBag.Title = "DetailsTH";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+
+<h3 style="text-align:center; color:red; font-family:'Times New Roman'; font-weight:bold">THÔNG TIN THƯƠNG HIỆU</h3>
+<div>
+    <div style="width:40%;float:left;border-left:dotted 1px;border-color:azure">
+        <img src="~/Assets/images/@Model.HinhAnh" width="100%" />
+    </div>
+    <div style="width:60%;float:left">
+        <h4 style="text-align:left; color:#808080; font-weight:bold">Tên thương hiệu: <span style="color:black;font-size:20pt;font-family:'Times New Roman';font-weight:100"@Html.DisplayFor(model=>model.TenTH)</span></h4>
+        
+       
+       </div>
+    </div>
+
+<p>
+    @Html.ActionLink("Chỉnh sửa","EditTH",new{id=Model.MaTH}) |
+    @Html.ActionLink("Trở về", "ThuongHieu")
+</p>

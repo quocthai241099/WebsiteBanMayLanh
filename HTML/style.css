@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+body {
+    margin:0px;
+
+}
+
+.top {
+   
+}
+.menu {
+    margin-top:0px;
+    padding-top:0px;
+    float: none;
+}
+.top ul{
+    margin-top:0px;
+    padding-top:0px;
+    list-style-type: none;
+    background-image:url(../QLMayLanh/Assets/images/header.jpg);
+}
+
+
+.top li {
+    display:inline-block;
+    width: 443px;
+    height:99px;
+}
+.middle ul{
+    padding-top: -20px; margin-bottom: -40px;
+    padding-left: -10px;
+    list-style-type: none;
+    text-align:center;
+    
+}
+.middle li{
+    display:inline-flexbox;
+    width:92px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -5px;
+    color: #f1f1f1;
+    background-color: #CCCCCC;
+}
+
+.middle a {
+    text-decoration: none;
+    color: darkblue;
+    display: block;
+    text-wrap: initial;
+}
+
+.middle a:hover {
+  background-color:brown ;
+  color: white;
+}
+.menu ul{
+    padding-top:0px;
+    list-style-type: none;
+    text-align:center;
+    background-color: darkblue;
+    margin-bottom:5px;
+}
+
+.menu li {
+    display:inline-block;
+    width:200px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -5px;
+    color: #f1f1f1;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #f1f1f1;
+  font-weight:bold;
+  display: block;
+  text-wrap: initial;
+  width:200px;
+}
+.menu a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+
+.center {
+    height:700px;
+    display:inline;
+}
+.flat {
+    float:left;
+    height: 196px;
+    width: 1358px;
+    display:block;
+}
+.footer {
+    background-color:blue;
+    padding-top:20px;
+	height:70px;
+	font-size:10px;
+	text-align:center;
+    color:white;
+}
+
+/* CSS Document */
+
+/* CSS Document */
+

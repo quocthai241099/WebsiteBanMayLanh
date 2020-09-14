@@ -1,0 +1,70 @@
+﻿@using QLMayLanh.Models
+@using PagedList.Mvc
+@model PagedList.PagedList<QLMayLanh.Models.SanPham>
+
+@{
+    ViewBag.Title = "SanPham";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<h2 style="text-align:center">QUẢN LÝ THÔNG TIN SẢN PHẨM</h2>
+<p style="font-size:x-large">
+    @Html.ActionLink("Thêm mới sản phẩm","Create")
+</p>
+<table class="table" border="1">
+    <tr>
+        <th>
+            Tên sản phẩm
+        </th>
+        <th>
+            Giá bán
+        </th>
+        <th>
+            Mô tả
+        </th>
+        <th>
+            Hình ảnh
+        </th>
+        <th>
+            Thương hiệu
+        </th>
+        <th></th>
+    </tr>
+    @foreach(var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem=>item.TenSP)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem=>item.GiaBan)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem=>item.MoTa)
+            </td>
+            <td>
+                <img src="@Url.Content("~/Assets/images/"+item.HinhAnhSP)" width="150px" height="150px" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem=>item.ThuongHieu.TenTH)
+            </td>
+            <td>
+                @Html.ActionLink("Edit","Edit",new{id=item.MaSP}) |
+                @Html.ActionLink("Details","Details",new{id=item.MaSP}) |
+                @Html.ActionLink("Delete","Delete",new{id=item.MaSP})
+
+            </td>
+        </tr>
+    }
+</table>
+Trang @(Model.PageCount<Model.PageNumber?0:Model.PageNumber)/@Model.PageCount
+<div class="MenuTrang">
+    @Html.PagedListPager(Model,page=>Url.Action("SanPham",new{page=page}))
+</div>
+<style>
+    .MenuTrang li {
+        display:inline;
+        font-size:20px;
+        margin-right:5px;
+    }
+</style>

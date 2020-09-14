@@ -1,0 +1,81 @@
+﻿@model QLMayLanh.Models.ThuongHieu
+@{
+    ViewBag.Title = "EditTH";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+<table align="center">
+    <h2 style="text-align:center">CHỈNH SỬA THÔNG TIN THƯƠNG HIỆU</h2>
+   @using (Html.BeginForm("EditTH", "Admin", FormMethod.Post, new { @enctype = "multipart/form-data" }))
+    {
+         @Html.AntiForgeryToken()
+         <tr style="height:40px">
+            <td align="left">@Html.LabelFor(model => model.MaTH, new { @class = "control-label col-md-2" })</td>
+            <td align="left">@Model.MaTH</td>
+        </tr>
+         <tr style="height:40px">
+            <td align="left">@Html.LabelFor(model => model.TenTH, new { @class = "control-label col-md-2" })</td>
+            <td align="left">@Html.EditorFor(model => model.TenTH) </td>
+             <td align="left"> @Html.ValidationMessageFor(model => model.TenTH)</td>
+        </tr>
+        
+        <tr style="height:40px">
+            <td align="left"> Chọn ảnh mới:</td>
+            <td align="left"> <input type="file" name="fileupload" /></td>
+             <td align="left"> <img src="@Url.Content("~/Assets/images/"+Model.HinhAnh)" width="120px" />(Ảnh hiện tại)</td>
+             <td align="left">  @ViewBag.Thongbao</td>
+        </tr>
+        
+        <tr style="height:40px">
+            <td></td>
+            <td><input type="submit" value="Chỉnh sửa" /></td>
+        </tr>
+    }
+    </table>
+
+<div>
+    @Html.ActionLink("Về trang quản lý sản phẩm", "SanPham")
+</div>
+@*<h2>CHỈNH SỬA THÔNG TIN THƯƠNG HIỆU</h2>
+@using (Html.BeginForm("EditTH", "Admin", FormMethod.Post, new { @enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal" style="text-align:center">
+        <h4>THƯƠNG HIỆU</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+        <div class="form-group">
+            
+            <div class="col-md-10">
+                @Html.LabelFor(model => model.MaTH, new { @class = "control-label col-md-2" })
+                @Model.MaTH
+            </div>
+        </div>
+        <div class="form-group">
+            
+            <div class="col-md-10">
+                @Html.LabelFor(model => model.TenTH, new { @class = "control-label col-md-2" })
+                @Html.EditorFor(model => model.TenTH) 
+                @Html.ValidationMessageFor(model => model.TenTH)
+            </div>
+        </div>
+        
+        <div class="form-group">
+            
+            <div class="col-md-10">
+                Chọn ảnh mới:
+                 <input type="file" name="fileupload" />
+                <img src="@Url.Content("~/Assets/images/"+Model.HinhAnh)" width="120px" />(Ảnh hiện tại)
+                @ViewBag.Thongbao
+            </div>
+        </div>
+       
+        <div class="form-group">
+           
+            <div class="col-md-2 col-md-10">
+                 <input type="submit" value="Chỉnh sửa" />
+                
+            </div>
+        </div>
+        </div>
+        
+}*@

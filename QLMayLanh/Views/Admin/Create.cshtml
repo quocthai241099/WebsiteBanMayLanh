@@ -1,0 +1,46 @@
+﻿@model QLMayLanh.Models.SanPham
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+<table align="center">
+    <h2 style="text-align:center">CREATE</h2>
+    @using (Html.BeginForm("Create", "Admin", FormMethod.Post, new { @enctype = "multipart/form-data" }))
+    {
+         @Html.AntiForgeryToken()
+         <tr style="height:40px">
+            <td align="left">@Html.LabelFor(model => model.TenSP, new { @class = "control-label col-md-2" }):</td>
+            <td align="left">@Html.EditorFor(model => model.TenSP)</td>
+             <td align="left">@Html.ValidationMessageFor(model => model.TenSP)</td>
+        </tr>
+        <tr style="height:40px">
+            <td align="left">@Html.LabelFor(model => model.GiaBan, new { @class = "control-label col-md-2" })</td>
+            <td align="left">@Html.EditorFor(model => model.GiaBan)</td>
+             <td align="left">@Html.ValidationMessageFor(model => model.GiaBan)</td>
+        </tr>
+        <tr style="height:40px">
+            <td align="left">@Html.LabelFor(model => model.MoTa, new { @class = "control-label col-md-2" })</td>
+            <td align="left"> <textarea name="Mota">Mô tả thông tin sản phẩm</textarea></td>
+             
+        </tr>
+        <tr style="height:40px">
+            <td align="left">@Html.LabelFor(model => model.HinhAnhSP, new { @class = "control-label col-md-2" })</td>
+            <td align="left"> <input type="file" name="fileupload" /></td>
+             <td align="left"> @ViewBag.Thongbao</td>
+        </tr>
+        <tr style="height:40px">
+            <td align="left"> @Html.LabelFor(model => model.MaTH, new { @class = "control-label col-md-2" })</td>
+            <td align="left"> @Html.DropDownList("MaTH") </td>
+             <td align="left"> @ViewBag.Thongbao</td>
+        </tr>
+        <tr style="height:40px">
+            <td></td>
+            <td><input type="submit" value="Thêm mới" /></td>
+        </tr>
+    }
+    </table>
+
+<div>
+    @Html.ActionLink("Về trang quản lý sản phẩm", "SanPham")
+</div>

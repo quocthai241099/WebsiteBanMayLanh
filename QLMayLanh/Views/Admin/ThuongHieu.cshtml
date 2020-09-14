@@ -1,0 +1,41 @@
+﻿@using QLMayLanh.Models
+@model IEnumerable<QLMayLanh.Models.ThuongHieu>
+@{
+    ViewBag.Title = "ThuongHieu";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<h2 style="text-align:center">QUẢN LÝ THÔNG TIN SẢN PHẨM</h2>
+<p style="font-size:x-large">
+    @Html.ActionLink("Thêm mới thương hiệu","CreateTH")
+</p>
+<table class="table" border="1">
+    <tr>
+        <th>
+            Tên thương hiệu
+        </th>
+        <th>
+            Hình ảnh
+        </th>
+        <th></th>
+    </tr>
+    @foreach(var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem=>item.TenTH)
+            </td>
+          
+            <td>
+                <img src="@Url.Content("~/Assets/images/"+item.HinhAnh)" width="120px" height="75px" />
+            </td>
+            
+            <td>
+                @Html.ActionLink("Edit","EditTH",new{id=item.MaTH}) |
+                @Html.ActionLink("Details","DetailsTH",new{id=item.MaTH}) |
+                @Html.ActionLink("Delete","DeleteTH",new{id=item.MaTH})
+
+            </td>
+        </tr>
+    }
+</table>
